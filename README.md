@@ -11,5 +11,9 @@ Example to use FA map code:
 
 <p>This is a normal paragraph:</p>
 
-<pre><code>This is a code block.
+<pre><code>
+
+FA_obj = FA('LIME','C:/Users/test_user/Desktop/Code/Model.pt','C:/Users/test_user/Desktop/Code/real_1R71W.jpg',1)
+test = FA_obj.run()
+
 </code></pre>

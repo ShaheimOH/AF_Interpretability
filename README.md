@@ -1,6 +1,6 @@
 # AF_Interpretability
 
-Code and data for 'Exploring Interpretability in Deep Learning Prediction of Successful Ablation Therapy for Atrial Fibrillation'
+Code and data for 'Exploring Interpretability in Deep Learning Prediction of Successful Ablation Therapy for Atrial Fibrillation' study.
 
 Please cite this papers:
 

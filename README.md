@@ -6,6 +6,9 @@ Please cite this papers:
 
 https://academic.oup.com/eurheartj/article/43/Supplement_2/ehac544.2775/6746513
 
+Dependencies:
+
+  > NumPy
 
 Example to use FA map code:
 

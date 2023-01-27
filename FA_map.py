@@ -25,10 +25,7 @@ FA(FA_type,model_pth,image_pth,strat_index):
 """
 
 from lime import lime_image
-from scipy.stats import pearsonr
 import numpy as np
-from scipy import stats
-import matplotlib.pyplot as plt
 from captum.attr import Occlusion
 from PIL import Image
 import cv2 

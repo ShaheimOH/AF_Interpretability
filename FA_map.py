@@ -128,7 +128,7 @@ class FA:
     
     guided_gc = LayerGradCam(model, model.conv4)
     
-    attributions = guided_gc.attribute(input_image, feature_index)
+    attributions = guided_gc.attribute(input_image, feature_index,relu_attributions = True)
     
     attributions = attributions.detach().cpu().numpy()
     

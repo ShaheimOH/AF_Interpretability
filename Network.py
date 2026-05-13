@@ -44,9 +44,6 @@ class Net(nn.Module):
         self.fc2 = nn.Linear(128, 64)
         self.fc3 = nn.Linear(64, 3)
         
-        #self.fc1 = nn.Linear(512, 256)  
-        #self.fc2 = nn.Linear(256, 128)
-        #self.fc3 = nn.Linear(128, 3)
 
     def forward(self, x):
         
